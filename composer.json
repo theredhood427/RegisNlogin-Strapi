@@ -1,0 +1,17 @@
+{
+    "name": "romac/ipt10-reg-login",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Romack Natividad",
+            "email": "romacknatividad@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}

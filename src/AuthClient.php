@@ -23,17 +23,24 @@ class AuthClient
 
 	public function register($username, $email, $password)
 	{
-		$registration_endpoint = ''; // ????
+		$registration_endpoint = 'http://localhost:1337/api/auth/local/register';
 		return $this->client->post($registration_endpoint, [
-			'json' => [] // supply the data here
+			'json' => [
+                'username' => $username,
+                'email' => $email,
+                'password' => $password
+            ]
 		]);
 	}
 
 	public function login($identifier, $password)
 	{
-		$login_endpoint = ''; // ????
+		$login_endpoint = 'http://localhost:1337/api/auth/local';
 		return $this->client->post($login_endpoint, [
-			'json' => [] // supply the data here
+			'json' => [
+				'identifier' => $identifier,
+				'password' => $password
+			]
 		]);
 	}
 }

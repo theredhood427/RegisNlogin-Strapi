@@ -1,5 +1,5 @@
 {
-    "name": "romac/ipt10-reg-login",
+    "name": "msi/ipt10-registration-login",
     "autoload": {
         "psr-4": {
             "App\\": "src/"
@@ -7,8 +7,8 @@
     },
     "authors": [
         {
-            "name": "Romack Natividad",
-            "email": "romacknatividad@gmail.com"
+            "name": "theredhood427",
+            "email": "bangsil.ronrusselle@auf.edu.ph"
         }
     ],
     "require": {
